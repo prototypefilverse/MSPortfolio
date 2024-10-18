@@ -19,11 +19,6 @@ h1 {
     color: #444;
 }
 
-.valign-wrapper {
-    display: flex;
-    align-items: center;
-}
-
 a {
     text-decoration: none;
     color: #0066cc;
@@ -44,16 +39,9 @@ a:hover {
     width: 240px;
 }
 
-h2.center {
-    font-size: 24px;
-    text-align: center;
-    color: #444;
-}
-
 .dev-info {
-    text-align: left;
+    text-align: left;  /* 左寄せ */
     margin-top: 10px;
     font-size: 14px;
     color: #333;
 }
-
