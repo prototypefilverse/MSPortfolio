@@ -10,7 +10,7 @@
 <body>
     <div class="container">
 
-        <h1>森川進ポートフォリオ</h1>
+        <h1>M.Sポートフォリオ</h1>
 
         <div class="profile">
             <div id="about-me" class="section valign-wrapper">
@@ -31,40 +31,52 @@
 
         <div class="section">
             <h2 class="center">成果物</h2>
+            <div class="about-text">
+              <p>データベースやAPIを活用した自作サイトをデプロイしています。</p>
+            </div>
         </div>
 
-        <div>
-            <a class="app-link" href="reviewsgem.jsp">
+ <div class="app-container">
+
+        <div class="app-link">
+            <a href="reviewsgem.jsp">
                 <img src="images/reviewsgem.jpg" alt="reviewsgem" width="240" height="150">
                 <p>映画感想WEBアプリ</p>
-                <div class="dev-info">
-                    <ul>
-                        <li>ruby 2.6.5</li>
-                        <li>Ruby on Rails 6.0.6.1</li>
-                        <li>JavaScript</li>
-                        <li>mysql 5.7.41</li>
-                        <li>AWS デプロイ</li>
-                    </ul>
-                </div>
             </a>
-            <a class="app-link" href="bulletinboard.jsp">
+            <div class="dev-info">
+                <ul>
+                    <li>Ruby 2.6.5</li>
+                    <li>Ruby on Rails 6.0.6.1</li>
+                    <li>JavaScript</li>
+                    <li>MySQL 5.7.41</li>
+                    <li>AWS デプロイ</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="app-link">
+            <a href="bulletinboard.jsp">
                 <img src="images/bulletinboard.jpg" alt="bulletinboard" width="240" height="150">
                 <p>WEB掲示板</p>
-                <div class="dev-info">
-                    <ul>
-                        <li>Eclipse 4.6.3</li>
-                        <li>Java 1.8</li>
-                        <li>jsp/サーブレット</li>
-                        <li>JavaScript</li>
-                        <li>Tomcat 8.5</li>
-                        <li>Azure SQL Server 又は MySQL</li>
-                        <li>Azure デプロイ</li>
-                    </ul>
-                </div>
             </a>
-            <a class="app-link" href="aitalk.jsp">
-                <img src="images/aitalk.jpg" alt="aitalk" width="240" height="150">
-                <p>AIと会話できるWEBアプリ</p>
+            <div class="dev-info">
+                <ul>
+                    <li>Eclipse 4.6.3</li>
+                    <li>Java 1.8</li>
+                    <li>jsp/サーブレット</li>
+                    <li>JavaScript</li>
+                    <li>Tomcat 8.5</li>
+                    <li>Azure SQL Server 又は MySQL</li>
+                    <li>Azure デプロイ</li>
+                </ul>
+            </div>
+         </div>
+
+         <div class="app-link">
+              <a href="aitalk.jsp">
+                  <img src="images/aitalk.jpg" alt="aitalk" width="240" height="150">
+                  <p>AIと会話できるWEBアプリ</p>
+              </a>
                 <div class="dev-info">
                     <ul>
                         <li>Eclipse 4.6.3</li>
@@ -76,10 +88,13 @@
                         <li>Azure デプロイ</li>
                     </ul>
                 </div>
-            </a>
-            <a class="app-link" href="TaskManager.jsp">
-                <img src="images/TaskManager.jpg" alt="TaskManager" width="240" height="150">
-                <p>タスク管理WEBアプリ</p>
+         </div>
+
+         <div class="app-link">
+              <a href="TaskManager.jsp">
+                  <img src="images/TaskManager.jpg" alt="TaskManager" width="240" height="150">
+                  <p>タスク管理WEBアプリ</p>
+              </a>
                 <div class="dev-info">
                     <ul>
                         <li>Eclipse 4.6.3</li>
@@ -90,8 +105,8 @@
                         <li>Azure デプロイ</li>
                     </ul>
                 </div>
-            </a>
-        </div>
+         </div>
+
     </div>
 </body>
 </html>
