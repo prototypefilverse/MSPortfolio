@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     background-image: url('../images/background.jpg');
@@ -14,9 +16,59 @@ body {
     text-align: center;
 }
 
-h1 {
+.main-title {
     text-align: center;
     color: #444;
+    margin-top: 50px;
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2.about-center {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #444;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px; /* アイコンとテキストの間隔 */
+    width: 1020px;
+    height: 200px;
+    margin: 0 auto; /* 中央揃え */
+}
+
+.profile-icon {
+    flex-shrink: 0; /* アイコンのサイズを固定 */
+}
+
+.profile-text p {
+    margin-left: 10px; /* 左マージンを10pxに設定 */
+}
+
+.profile-text {
+    text-align: left;
+    max-width: 800px;
+}
+
+.profile-text .about-list {
+    padding-left: 20px;
+    margin-top: 10px;
+    list-style-type: none; /* 点を消す */
+    display: flex; /* フレックスボックスを使用 */
+    flex-direction: column; /* 縦方向に並べる */
+}
+
+.profile-text .about-list li {
+    margin-bottom: 5px; /* 各行の間隔を少し開ける */
 }
 
 .valign-wrapper {
@@ -24,13 +76,15 @@ h1 {
     align-items: center;
 }
 
-a {
-    text-decoration: none;
-    color: #0066cc;
+h2.works-center {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+    color: #444;
 }
 
-a:hover {
-    text-decoration: underline;
+.description-text {
+    text-align: center;
 }
 
 .app-container {
@@ -63,10 +117,13 @@ a:hover {
     width: 100%;
 }
 
-h2.center {
-    font-size: 24px;
-    text-align: center;
-    color: #444;
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .dev-info {
@@ -80,4 +137,13 @@ h2.center {
     padding-left: 20px;
     list-style-type: none;
     margin: 0;
+}
+
+.app-title {
+    text-align: center;
+    color: #444;
+    font-size: 32px;
+    font-weight: normal;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
 }

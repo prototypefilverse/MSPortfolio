@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>タスク管理WEBアプリ</h1>
+        <h1 class="app-title">タスク管理WEBアプリ</h1>
         <img src="images/TaskManager.jpg" alt="TaskManager" width="480" height="280">
         <img src="images/TaskManager2.jpg" alt="TaskManager2" width="480" height="280">
         <p>登録式のオーソドックスなタスク管理アプリです</p>

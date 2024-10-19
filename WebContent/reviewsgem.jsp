@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>映画感想WEBアプリの紹介</h1>
+        <h1 class="app-title">映画感想WEBアプリの紹介</h1>
         <img src="images/reviewsgem.gif" alt="reviewsgem" width="580" height="360">
         <p>映画をレビューすると勇者が強くなるアプリです。</p>
         <a href="https://note.com/reviews_gem/n/nc4076776ea29" target="_blank">紹介noteへ</a>

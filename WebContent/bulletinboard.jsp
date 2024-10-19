@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>WEB掲示板</h1>
+        <h1 class="app-title">WEB掲示板</h1>
         <img src="images/bulletinboard.jpg" alt="bulletinboard" width="480" height="260">
         <img src="images/bulletinboard2.jpg" alt="bulletinboard2" width="200" height="240">
         <img src="images/bulletinboard3.jpg" alt="bulletinboard3" width="360" height="220">
