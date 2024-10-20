@@ -2,14 +2,14 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('../images/background.jpg');
-    background-size: cover;
+    background-image: linear-gradient(to right, #d0e1ff, #f0f8ff);
     margin: 0;
     padding: 0;
     color: #333;
 }
 
 .container {
+	width: 90%;
     width: 1200px;
     margin: 0 auto;
     padding: 10px;
@@ -17,14 +17,11 @@ body {
 }
 
 .main-title {
-    text-align: center;
-    color: #444;
+    color: #2c3e50;
     margin-top: 50px;
     font-size: 48px;
     font-weight: bold;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-
-    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -32,39 +29,40 @@ body {
 h2.about-center {
     font-size: 24px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     color: #444;
 }
 
 .profile-container {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    gap: 20px; /* アイコンとテキストの間隔 */
-    width: 1020px;
-    height: 200px;
-    margin: 0 auto; /* 中央揃え */
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ecf0f1;
 }
 
-.profile-icon {
-    flex-shrink: 0; /* アイコンのサイズを固定 */
-}
-
-.profile-text p {
-    margin-left: 10px; /* 左マージンを10pxに設定 */
+.profile-icon img {
+    border-radius: 50%; /* 丸いアイコン */
+    border: 2px solid #ccc; /* アイコンの枠線 */
 }
 
 .profile-text {
     text-align: left;
-    max-width: 800px;
+    flex-grow: 1;
 }
 
-.profile-text .about-list {
+.profile-text p {
+    margin-left: 10px;
+}
+
+.about-list {
     padding-left: 20px;
     margin-top: 10px;
     list-style-type: none; /* 点を消す */
-    display: flex; /* フレックスボックスを使用 */
-    flex-direction: column; /* 縦方向に並べる */
 }
 
 .profile-text .about-list li {
@@ -80,6 +78,7 @@ h2.works-center {
     font-size: 24px;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 0px;
     color: #444;
 }
 
@@ -140,10 +139,43 @@ a:hover {
 }
 
 .app-title {
-    text-align: center;
-    color: #444;
     font-size: 32px;
-    font-weight: normal;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 40px;
     margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.app-content {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.app-image {
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.app-description {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.app-links a {
+    display: inline-block;
+    margin: 10px 15px;
+    font-size: 16px;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.app-links a:hover {
+    text-decoration: underline;
+}
+
+.notice {
+    color: red;
+    font-weight: bold;
 }
