@@ -15,7 +15,7 @@
             <p class="app-description">映画をレビューすると勇者が強くなるアプリです。</p>
             <div class="app-links">
                 <a href="https://note.com/reviews_gem/n/nc4076776ea29" target="_blank">紹介noteへ</a>
-                <a href="https://github.com/prototypefilverse/protofilv" target="_blank">GitHubへ</a>
+                <!-- <a href="https://github.com/prototypefilverse/protofilv" target="_blank">GitHubへ</a> -->
                 <a href="http://52.68.141.51/" target="_blank">サイトへ</a>
             </div>
         </div>

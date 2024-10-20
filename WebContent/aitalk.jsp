@@ -15,7 +15,7 @@
             <p class="app-description">OpenAIのAPIを埋め込んでおり、疑似的な会話ができます</p>
             <div class="app-links">
                 <a href="https://note.com/reviews_gem/n/n234d53081e7b" target="_blank">紹介noteへ</a>
-                <a href="https://github.com/prototypefilverse/openAsItest" target="_blank">githubへ</a>
+                <!-- <a href="https://github.com/prototypefilverse/openAsItest" target="_blank">githubへ</a> -->
                 <a href="https://reviewsgembbopenaitest.azurewebsites.net/" target="_blank">サイトへ</a>
             </div>
             <p class="notice">※現在、従量課金回避のためデータベース削除中につき会話機能動きません</p>

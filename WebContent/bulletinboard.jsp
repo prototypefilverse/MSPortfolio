@@ -17,7 +17,7 @@
             <p class="app-description">オーソドックスな掲示板に、AI質問ボックスを備え付けています。</p>
             <div class="app-links">
                 <a href="https://note.com/reviews_gem/n/nb06739d8abc1" target="_blank">紹介noteへ</a>
-                <a href="https://github.com/prototypefilverse/reviewsgembbai" target="_blank">GitHubへ</a>
+                <!-- <a href="https://github.com/prototypefilverse/reviewsgembbai" target="_blank">GitHubへ</a> -->
                 <a href="https://reviewsgembbai.azurewebsites.net/" target="_blank">サイトへ</a>
             </div>
             <p class="notice">※現在、従量課金回避のためデータベース削除中につきログイン不可です</p>

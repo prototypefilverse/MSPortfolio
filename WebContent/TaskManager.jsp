@@ -16,7 +16,7 @@
             <p>登録式のオーソドックスなタスク管理アプリです</p>
             <div class="app-links">
                 <a href="https://note.com/reviews_gem/n/n29998012e1eb" target="_blank">紹介noteへ</a>
-                <a href="https://github.com/prototypefilverse/TaskManager" target="_blank">githubへ</a>
+                <!-- <a href="https://github.com/prototypefilverse/TaskManager" target="_blank">githubへ</a> -->
                 <a href="https://taskmanagerms.azurewebsites.net/" target="_blank">サイトへ</a>
             </div>
             <p class="notice">※現在、従量課金回避のためデータベース削除中につきログイン不可です</p>
